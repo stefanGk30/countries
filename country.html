@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/080d48a5b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <!-- header -->
+    <header>
+      <div class="header center">
+        <a href="./index.html">
+          <h1 class="title">Where in the world?</h1>
+        </a>
+        <div class="theme-toggle-container">
+          <button class="toggle-btn btn">
+            <i class="fas fa-moon dark-moon"></i>
+            <i class="far fa-moon light-moon"></i>
+            Dark Mode
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- back to home link -->
+    <section class="back-link center">
+      <a href="./index.html" class="single-country-btn back-btn">
+        <i class="fas fa-long-arrow-alt-left"></i>
+        <span class="back-text">Back</span>
+      </a>
+    </section>
+    <!-- countries section -->
+    <section class="single-country-section center">
+      <div class="loader single-loader"></div>
+    </section>
+
+    <script type="module" src="./js/singleCountry.js"></script>
+  </body>
+</html>
